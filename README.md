@@ -16,6 +16,7 @@ For Slack integration, a polling adapter lives at
 and periodically fetches channel histories to surface messages that reference
 slides or elements.
 
+
 ## Development
 
 ```
