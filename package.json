@@ -4,17 +4,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "echo 'dev server placeholder'",
-    "build": "echo 'build placeholder'",
-    "test": "echo 'No tests configured'"
+    "dev": "vite",
+    "electron:dev": "electron .",
+    "build": "vite build && electron-builder"
   },
-
   "dependencies": {
+    "@slack/web-api": "^7.4.0",
     "diff-match-patch": "^1.0.5",
     "fast-xml-parser": "^4.3.4",
     "jszip": "^3.10.1",
-    "@slack/web-api": "^7.4.0"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
-
-  "devDependencies": {}
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "electron": "^38.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
+  }
 }
