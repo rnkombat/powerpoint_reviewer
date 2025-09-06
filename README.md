@@ -28,6 +28,9 @@ files using the 左右のファイル入力欄. The app normalizes both decks, c
 differences, and shows only the slides that changed side-by-side. A simple
 comment panel is provided to attach Slack URLs manually.
 
+For a quick demo without preparing PPTX files, click the **サンプル差分を読み込む**
+button to load built-in manifests and see the visual diff UI immediately.
+
 ## Testing
 
 ```

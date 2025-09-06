@@ -6,6 +6,7 @@ import { BasicDiffEngine } from '../core/DiffEngine';
 import { BasicPptxNormalizer } from '../core/PptxNormalizer';
 import type { SlideDiff } from '../core/DiffEngine';
 import type { Manifest, Comments } from '../types';
+import { manifestA as sampleA, manifestB as sampleB, sampleComments } from '../sample/sampleData';
 import './styles.css';
 
 function App() {
@@ -57,6 +58,11 @@ function App() {
           <label>新版PPTX</label>
           <input type="file" accept=".pptx" onChange={(e) => e.target.files && handleFile(e.target.files[0], setManifestB)} />
         </div>
+        <button onClick={() => {
+          setManifestA(sampleA);
+          setManifestB(sampleB);
+          setComments(sampleComments);
+        }}>サンプル差分を読み込む</button>
       </div>
       {diffs && manifestA && manifestB && (
         <>
