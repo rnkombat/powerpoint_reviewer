@@ -8,6 +8,7 @@ const Timeline: React.FC<Props> = ({ onLoadDemo }) => {
       <button onClick={onLoadDemo}>サンプル差分を読み込む</button>
     </div>
   );
+
 };
 
 export default Timeline;

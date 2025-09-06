@@ -44,6 +44,7 @@ function App() {
           <CommentPanel comments={comments} onAdd={addComment} />
         </>
       )}
+
     </div>
   );
 }

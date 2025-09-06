@@ -16,12 +16,14 @@ For Slack integration, a polling adapter lives at
 and periodically fetches channel histories to surface messages that reference
 slides or elements.
 
+
 ## Development
 
 ```
 npm install
 npm run dev
 ```
+
 
 After the dev server starts, open the app in your browser and click
 "サンプル差分を読み込む" to load demo manifests. The UI will display slide

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import type { SlideDiff } from '../core/DiffEngine';
 
 type Props = { diffs: SlideDiff[] };
@@ -31,6 +32,7 @@ const DiffView: React.FC<Props> = ({ diffs }) => {
       </ul>
     </div>
   );
+
 };
 
 export default DiffView;
