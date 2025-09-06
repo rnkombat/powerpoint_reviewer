@@ -1,0 +1,25 @@
+{
+  "name": "powerpoint_reviewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo 'No tests configured'"
+  },
+  "dependencies": {
+    "diff-match-patch": "^1.0.5",
+    "fast-xml-parser": "^4.3.4",
+    "jszip": "^3.10.1",
+    "@slack/web-api": "^7.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7"
+  }
+}
