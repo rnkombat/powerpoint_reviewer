@@ -24,6 +24,12 @@ npm install
 npm run dev
 ```
 
+
+After the dev server starts, open the app in your browser and click
+"サンプル差分を読み込む" to load demo manifests. The UI will display slide
+comparison results and a comment panel where additional Slack URLs can be
+added.
+
 ## Testing
 
 ```
