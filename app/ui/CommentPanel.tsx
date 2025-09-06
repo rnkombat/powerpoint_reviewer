@@ -40,7 +40,6 @@ const CommentPanel: React.FC<Props> = ({ comments, onAdd }) => {
       </div>
     </div>
   );
-
 };
 
 export default CommentPanel;

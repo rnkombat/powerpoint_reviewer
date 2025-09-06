@@ -1,0 +1,45 @@
+.app {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.upload-area {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.diff-view {
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+}
+.diff-row {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+.slide-col {
+  flex: 1;
+  padding: 0.5rem;
+}
+.diff-row.added {
+  background: #e6ffed;
+}
+.diff-row.removed {
+  background: #ffe6e6;
+}
+.diff-row.moved {
+  background: #e6e6ff;
+}
+.diff-row.edited {
+  background: #fffbe6;
+}
+.element-change.added {
+  color: #008000;
+}
+.element-change.removed {
+  color: #ff0000;
+}
+.element-change.moved {
+  color: #800080;
+}
+.element-change.edited {
+  color: #b8860b;
+}
