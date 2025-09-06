@@ -2,9 +2,11 @@ import JSZip from 'jszip';
 import type { Manifest, ManifestElement } from '../types';
 import { sha256 } from '../utils/crypto';
 
+
 export type NormalizedSlide = {
   index: number;
   elements: ManifestElement[];
+
   hash: string;
   titleText?: string;
 };
